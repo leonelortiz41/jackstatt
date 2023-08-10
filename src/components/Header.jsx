@@ -20,8 +20,9 @@ export function Header() {
                     </button>
                     <div className="collapse navbar-collapse position-lg-absolute mt-3" id="navbarSupportedContent">
                         <ul className="navbar-nav">
+
                             <li className="nav-item">
-                                <Link className="nav-link" to="/" >Inicio</Link>
+                                <Link className="nav-link" to="/">Inicio</Link>
                             </li>
                             <li className="nav-item">
                                 <a type="button" className="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">

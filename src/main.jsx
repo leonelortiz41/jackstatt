@@ -23,8 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Feedback />
           </>
         } />
-        <Route path='Contacto' element={<Contacto/>}/>
-        <Route path='Gallery' element={<Gallery/>}/>
+        <Route path='/Contacto' element={<Contacto/>}/>
+        <Route path='/Gallery' element={<Gallery/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
