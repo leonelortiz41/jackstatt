@@ -30,10 +30,10 @@ export function Header() {
 
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="Contacto">Contacto</a>
+                                <a className="nav-link" href="/Contacto">Contacto</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="Gallery">Galeria</a>
+                                <a className="nav-link" href="/Gallery">Galeria</a>
                             </li>
                         </ul>
 
