@@ -14,17 +14,17 @@ import "./App.css"
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
-    <Header></Header>
+    <Header/>
+        <Cotizacion/>
       <Routes>
-        <Route path='' element={
+        <Route path='/' element={
           <>
             <About />
             <Feedback />
-            <Cotizacion/>
           </>
         } />
-        <Route path='/Contacto' element={<Contacto/>}/>
-        <Route path='/Gallery' element={<Gallery/>}/>
+        <Route path='Contacto' element={<Contacto/>}/>
+        <Route path='Gallery' element={<Gallery/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
