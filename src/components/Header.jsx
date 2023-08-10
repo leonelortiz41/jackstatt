@@ -21,7 +21,7 @@ export function Header() {
                     <div className="collapse navbar-collapse position-lg-absolute mt-3" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link" href="/" >Inicio</a>
+                                <Link className="nav-link" to="/" >Inicio</Link>
                             </li>
                             <li className="nav-item">
                                 <a type="button" className="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -30,10 +30,10 @@ export function Header() {
 
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/Contacto">Contacto</a>
+                                <NavLink className="nav-link" to="Contacto">Contacto</NavLink>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/Gallery">Galeria</a>
+                                <Link className="nav-link" to="Gallery">Galeria</Link>
                             </li>
                         </ul>
 
