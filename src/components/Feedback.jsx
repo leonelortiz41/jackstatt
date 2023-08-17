@@ -32,8 +32,8 @@ export function Feedback() {
     ))
     return (
         <div className='mt-5 container' id='testimonios'>
-            <h3>Testimonios:</h3>
-            {elementFeedback}
+            {/* <h3>Testimonios:</h3>
+            {elementFeedback} */}
         </div>
     )
 }

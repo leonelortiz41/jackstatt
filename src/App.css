@@ -1,7 +1,7 @@
 @media (width< 992px) {
   .position-lg-absolute {
     position: absolute !important;
-    background: linear-gradient(to left, #000, var(--color2), #000);
+    background: linear-gradient(to left, var(--color1), transparent 60%);
     width: 100%;
     left: 0;
     text-align: center;
@@ -10,18 +10,19 @@
 
 :root {
   --color1: #5d0085;
-  --color2: #bfa4cf;
+  --color2: #e8cdf8;
   --color3: #19001e;
 }
 
 ::-webkit-scrollbar {
-  background: var(--color3);
+  background: #000;
   width: 11px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: var(--color2);
-  border-radius: 3px;
+  border: 2px solid #000;
+  border-radius:5px;
 }
 
 body {
@@ -70,7 +71,8 @@ body {
 }
 
 .header {
-  background: linear-gradient(to left, #000, var(--color2), #000);
+  background: linear-gradient(to left, var(--color1), transparent 60%);
+  background-repeat: no-repeat;
   color: #fff;
   min-height: 80px;
 }
@@ -83,7 +85,9 @@ body {
 .header a:focus {
   color: #fff;
 }
-
+.header .navbar-brand{
+  color: #000;
+}
 .header a:hover {
   transform: scale(1.2);
   filter: hue-rotate(7.079rad);

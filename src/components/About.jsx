@@ -4,11 +4,13 @@ import logo from '../assets/jackslogo.webp'
 
 export  function About() {
   return (
-    <div className='container'>
-      <img src={logo} alt="" className='m-auto d-block logo'  />
-      <h1 className='text-center'>Jacks Tattoo</h1>      
-      <h2>Lema Lorem ipsum pp jj n jhg yfvg y ur adipisicing elit. opsdk66disi odit veritatis voluptatum!.</h2>
-      <p>Lorem ipsumiojdpjgvf oloc uiuifvuuio gjogjdifhg ih igih consectetur adipisicing elit. Dolor, deserunt commodi voluptatem obcaecati itaque similique reiciendis id ratione, qui aliquid aliquam tempore in, eos velit facilis nesciunt aspernatur nulla beatae.</p>
+    <div className='container row'>
+      <img src={logo} alt="" className='m-auto col-md-5 logo'  />
+      <div className='col-md-7 text-center my-auto'>
+      <h1 className='text-center '>Salon de tatuajes</h1>      
+      <h2>Tu cuerpo pide tinta!😜</h2>
+      <p>Si estas pensando en un diseño para tatuarte y queres tener mas información al respecto, te invito a que consultes con nosotros.</p>
+      </div>
     </div>
   )
 }
